@@ -1,0 +1,28 @@
+:root {
+  font-family: 'Geist Variable';
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2 {
+  letter-spacing: -0.05em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}

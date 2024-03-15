@@ -5,11 +5,12 @@ function App() {
     <div>
       <h1>
         Font{' '}
-        <span className='bg-gradient-to-br from-[#313b1b] from-50% to-[#1A1A1A] bg-clip-text text-transparent'>
+        <span className='bg-gradient-to-br from-[#313b1b] from-50% to-[#1A1A1A] bg-clip-text text-transparent pr-[1px]'>
           Variants
         </span>
         .&nbsp;
         <span className='bg-gradient-to-br from-[#959693] from-50% to-[#1A1A1A] bg-clip-text text-transparent pr-[1px]'>
+          <wbr />
           Typefaces
         </span>
         &nbsp;have secrets too.
